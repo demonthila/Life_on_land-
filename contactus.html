@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Life On Land Responsive Contact Us Page</title>
-    <link rel="stylesheet" href="contactusstyle.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Life On Land Responsive Contact Us Page</title>
+        <!--icon links-->
+        <script src="https://kit.fontawesome.com/3b54e4cb77.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="contactusstyle.css">
+    </head>
+    <body>
 
-    <section class="contact">
-        <div class="content">
-            <h1>Contact Us</h1>
-            <p>bjcdnvjdsjnfjvdhbvvnjs  djcnsddiakvnjkba bjdnajbadhjbhvgsa asxjasjka bc xhjcbjkcn cdbdsjkcsdkj jdcbjksdhbcj csdsjcdjcsljcnscnsj jcndsjkcnsljcnsj
-            </p>
-        </div>
+        <section class="contact">
+            <div class="content">
+                <h1>Contact Us</h1>
+                <p>bjcdnvjdsjnfjvdhbvvnjs  djcnsddiakvnjkba bjdnajbadhjbhvgsa asxjasjka bc xhjcbjkcn cdbdsjkcsdkj jdcbjksdhbcj csdsjcdjcsljcnscnsj jcndsjkcnsljcnsj
+                </p>
+            </div>
 
         <div class="contact-wrapper">
 
             <div class="direct-contact-container">
 
-            <!--adrres, email,phone number-->
+            <!--adres, email,phone number-->
             <div class="container">
                 <div class="contactInfo">
                     <div class="box">
@@ -46,31 +47,60 @@
                             <p>vhdbchdabj@gmail.com</p>
                         </div>
                     </div>
-                </div> 
-            </div> 
-            
-            <!--social media icons-->
-            <hr>
-            <ul class="social-media-list">
-              <li><a href="#" target="_blank" class="contact-icon">
-                <i class="fa fa-github" aria-hidden="true"></i></a>
-              </li>
-              <li><a href="#" target="_blank" class="contact-icon">
-                <i class="fa fa-facebook" aria-hidden="true"></i></a>
-              </li>
-              <li><a href="#" target="_blank" class="contact-icon">
-                <i class="fa fa-twitter" aria-hidden="true"></i></a>
-              </li>
-              <li><a href="#" target="_blank" class="contact-icon">
-                <i class="fa fa-instagram" aria-hidden="true"></i></a>
-              </li>       
-            </ul>
-            <hr>
-         
-        </div>
-        </div>    
-    </section>    
 
+                </div>
+                
+
+                <!--social media icons-->
+                <hr>
+                <ul class="social-media-list">
+                  <li><a href="#" target="_blank" class="contact-icon">
+                    <i class="fa fa-github" aria-hidden="true"></i></a>
+                  </li>
+                  <li><a href="#" target="_blank" class="contact-icon">
+                    <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  </li>
+                  <li><a href="#" target="_blank" class="contact-icon">
+                    <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  </li>
+                  <li><a href="#" target="_blank" class="contact-icon">
+                    <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            
+                  </li>      
+                  
+                </ul>
+                <hr>
+            </div>
+
+            </div>
+
+                <!--starting message form-->
+                <form onsubmit="event.preventDefault(); validateForm()">
+                    <h1>Send Message</h1>
     
-</body>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Your Name">
+                    <small class="error"></small>
+    
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" placeholder="Your Email">
+                    <small class="error"></small>
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" placeholder="Type Your Message Here..." rows="6"></textarea>
+                    <small class="error"></small>
+    
+                    <div class="center">
+                        <input type="submit" value="Send Message">
+                        <p id="success"></p>
+                    </div>
+                </form>
+                <!--over massege form-->
+            
+            
+            
+        </div>    
+        </section>    
+        
+    </body>
 </html>

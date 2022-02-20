@@ -37,8 +37,7 @@
     color: #fff;
 }
 
-.contact-wrapper 
-{
+.contact-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -49,11 +48,11 @@
   }
 
   /* Begin Right Contact Page */
-.direct-contact-container {
+/*.direct-contact-container {
     max-width: 400px;
-  }
+  }*/
 
-  .container
+.container
 {
     width: 100%;
     display: flex;
@@ -104,11 +103,14 @@
     color: #00fecb;
 }
 
+
+
 /*body{
-    /*hariyat image eka select karann
-    background-image: url(imageee.jpg);
+    
+    background-image: url("imageee.jpg");
     margin: 0;
 }*/
+
 
 /* Social Media Icons */
 .social-media-list {
@@ -171,3 +173,102 @@
   hr {
     border-color: #00fecb;
   }
+
+  /* massage form*/
+form
+{
+    max-width: 550px;
+    width: 90%;
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.25);
+    border: 1px solid rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    margin: 17vh auto 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    backdrop-filter: blur(25px);
+    justify-content: right;
+}
+
+h1
+{
+    margin: 0;
+    text-align: center;
+    color: #fff;
+
+}
+
+label
+{
+    display: block;
+    margin: 20px 0;
+    color: #fff;
+    
+
+}
+
+input, textarea
+{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
+    border-radius: 10px;
+}
+
+input[type="text"]:focus, textarea:focus
+{
+    border-bottom: 1px solid #00fecb;
+}
+
+textarea::-webkit-scrollbar
+{
+    width: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb
+{
+    background-color: #00fecb;
+}
+
+.center
+{
+    text-align: center;
+}
+
+input[type="submit"]
+{
+    margin-top: 30px;
+    width: 90%;
+    max-width: 200px;
+    background: linear-gradient(to right, #00fecb, #47e8be, #5fd3b1, #6dbea4, #76a998, #7c948b, #7f7f7f);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.error
+{
+    color: red;
+}
+
+.error-border
+{
+    border-bottom: 1px solid red;
+}
+
+#success
+{
+    color:#28A745;
+}
+
+
+  
+ 
