@@ -64,3 +64,8 @@ body {
     font-size: 15px;
     cursor: pointer;
 }
+
+.img-text.m-in {
+    -webkit-transform: translateX(-520px);
+    transform: translateX(-520px);
+}
