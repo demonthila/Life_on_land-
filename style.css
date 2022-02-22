@@ -16,3 +16,12 @@ body {
     background: -webkit-linear-gradient(left, #00fecb, #47e8be, #5fd3b1, #6dbea4, #76a998, #7c948b, #7f7f7f);
     font-family: 'Nunito', sans-serif;
 }
+
+.cont {
+    overflow: hidden;
+    position: relative;
+    width: 900px;
+    height: 550px;
+    background: #fff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
