@@ -39,3 +39,14 @@ body {
     transition: -webkit-transform 1.2s ease-in-out;
     transition: transform 1.2s ease-in-out;
 }
+
+.img {
+    overflow: hidden;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 260px;
+    height: 100%;
+    padding-top: 360px;
+}
