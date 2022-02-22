@@ -60,7 +60,7 @@
   .img-box:after
   {
     content: '';
-    opacity: 1;
+    opacity: 0;
     background-color: rgba(0,0,0,0.6);
     position: absolute;
     right: 0;
@@ -79,7 +79,7 @@
     display: block;
     left: 50%;
     transform: translateX(-50%);
-    opacity: 1;
+    opacity: 0;
   }
 
   .img-box ul li
@@ -91,4 +91,35 @@
     margin: 3px;
     padding: 7px;
     display: inline-block;
+  }
+
+  .img-box a
+  {
+    color: #fff;
+
+  }
+
+  .img-box:hover:after
+  {
+    opacity: 1;
+  }
+
+  .img-box:hover ul
+  {
+    opacity: 1;
+  }
+
+  .img-box:hover ul
+  {
+    opacity: 1;
+  }
+.img-box a:hover li
+  {
+    color: #00fecb;
+    border: 1px solid #00fecb;
+  }
+
+  .img-box:after, .img-box ul, .img-box ul li
+  {
+    transition: all 0.5s
   }
