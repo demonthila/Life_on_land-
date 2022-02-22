@@ -16,3 +16,10 @@ body {
     background: -webkit-linear-gradient(left, #00fecb, #47e8be, #5fd3b1, #6dbea4, #76a998, #7c948b, #7f7f7f);
     font-family: 'Nunito', sans-serif;
 }
+
+input,
+button {
+    border: none;
+    outline: none;
+    background: none;
+}
