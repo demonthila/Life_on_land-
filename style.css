@@ -69,3 +69,8 @@ body {
     -webkit-transform: translateX(-520px);
     transform: translateX(-520px);
 }
+
+.cont.s-signup .img-text.m-in {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
