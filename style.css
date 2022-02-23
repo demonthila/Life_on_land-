@@ -249,3 +249,22 @@ button {
     height: 100%;
     background: rgba(0, 0, 0, 0.3);
 }
+
+.cont.s-signup .img:before {
+    -webkit-transform: translate3d(640px, 0, 0);
+    transform: translate3d(640px, 0, 0);
+}
+
+.img-text {
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    color: #fff;
+    -webkit-transition: -webkit-transform 1.2s ease-in-out;
+    transition: -webkit-transform 1.2s ease-in-out;
+    transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
+}
