@@ -39,3 +39,8 @@
     flex-direction: row;
     padding: 5px 0;
 }
+.input-box{
+    width: 100%;
+    margin-right: 12px;
+    position: relative;
+}
