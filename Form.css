@@ -44,3 +44,6 @@
     margin-right: 12px;
     position: relative;
 }
+.input-box:last-child{
+    margin-right: 0;
+}
