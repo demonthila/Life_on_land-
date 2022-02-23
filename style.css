@@ -221,3 +221,8 @@ button {
 .forgot-pass:hover {
     color: brown;
 }
+
+.cont.s-signup .sub-cont {
+    -webkit-transform: translate3d(-640px, 0, 0);
+    transform: translate3d(-640px, 0, 0);
+}
