@@ -47,9 +47,28 @@
         </div>
     </section>
 
-    <section>
-        <div>
-            
+    <section class="pro">
+        <div class="row">
+            <div class="col-1">
+                <h1>Our Process</h1>
+                <p>bhjjhvgvhbhjvghjvgvhbhvjh
+                    bjhgbhbhbjh
+                </p>
+                <button type="button">Explore Steps</button>
+
+                <ul><li class="btn active"></li>
+                    <li class="btn"></li>
+                    <li class="btn"></li>
+                    <li class="btn"></li>
+                    <li class="btn"></li>
+                    <li class="btn"></li>
+
+                </ul>
+            </div>
+            <div class="col-2">
+                <img src="p1.png" id="banner">
+            </div>
+
         </div>
     </section>
 
@@ -123,6 +142,30 @@
     </section>
 
 
+    <script>
+        var btn = document.getElementsByClassName("btn");
+        var banner =  document.getElementById("banner");
+
+        btn[0].onclick = function(){
+            banner.src = "p1.png";
+        }
+        btn[1].onclick = function(){
+            banner.src = "p2.png";
+        }
+        btn[2].onclick = function(){
+            banner.src = "p3.png";
+        }
+        btn[3].onclick = function(){
+            banner.src = "p4.png";
+        }
+        btn[4].onclick = function(){
+
+            banner.src = "p5.png";
+        }
+        btn[5].onclick = function(){
+            banner.src = "p6.png";
+        }
+    </script>
     
 </body>
 

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 /*about us top section*/
 .about-section {
     padding: 170px;
@@ -162,4 +163,59 @@
     transition: all 0.5s
   }
   
-  
+
+  /*process file*/
+  .pro{
+    padding: 100px;
+  }
+  .pro .row{
+    display:flex;
+    width: 100%;
+    background: #00fecb;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 400px;
+  }
+  .pro .col-1, .col-2{
+    flex-basis: 50%;
+    overflow: hidden;
+  }
+  .pro .col-2 img{
+    width: 100%;
+  }
+  .pro .col-1{
+    padding: 8% 5%;
+    position: relative;
+  }
+
+  .pro .col-1 h1{
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: 2px;
+    color:#333
+  }
+
+  .pro .col-1 p{
+    color:#777;
+    line-height: 22px;
+    margin: 15px 0 30px;
+  }
+
+  .pro ul{
+    position: absolute;
+    bottom: 30px;
+  }
+
+  .pro ul li{
+    list-style: none;
+    width: 0px;
+    height: 27px;
+    display: inline-block;
+    background: #bfbfbf;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  .pro ul .active{
+    background: #333;
+  }
