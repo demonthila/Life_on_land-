@@ -7,3 +7,9 @@
     background-color: #f5f5f5;
     font-family: Arial, Helvetica, sans-serif;
 }
+.wrapper{
+    background-color: #fff;
+    width: 100%;
+    padding: 35px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
