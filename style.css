@@ -204,3 +204,20 @@ button {
     font-family: 'Nunito', sans-serif;
     background: -webkit-linear-gradient(left, #00fecb, #47e8be, #5fd3b1, #6dbea4, #76a998, #7c948b, #7f7f7f);
 }
+
+.submit:hover {
+    background: -webkit-linear-gradient(left, , );
+}
+
+.forgot-pass {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0c0101;
+    cursor: pointer;
+}
+
+.forgot-pass:hover {
+    color: brown;
+}
