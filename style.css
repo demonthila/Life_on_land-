@@ -195,3 +195,12 @@ button {
     font-size: 15px;
     cursor: pointer;
 }
+
+.submit {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    background: -webkit-linear-gradient(left, #00fecb, #47e8be, #5fd3b1, #6dbea4, #76a998, #7c948b, #7f7f7f);
+}
