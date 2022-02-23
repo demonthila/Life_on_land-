@@ -136,3 +136,9 @@ button {
     outline: none;
     background: none;
 }
+
+.welcome-text {
+    width: 100%;
+    height: auto;
+    margin: 30% 0;
+}
