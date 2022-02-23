@@ -129,3 +129,10 @@ body {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
+
+input,
+button {
+    border: none;
+    outline: none;
+    background: none;
+}
