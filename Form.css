@@ -120,3 +120,8 @@
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
+.radio:checked + label{
+    background-color: #0c8a32;
+    color: #fff;
+    transition: 0.5s;
+}
