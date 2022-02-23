@@ -116,3 +116,7 @@
     border-bottom-left-radius: 3px;
     border-right: none;
 }
+.input-box label:last-of-type{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
