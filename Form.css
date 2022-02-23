@@ -111,3 +111,8 @@
     text-align: center;
     border: 1px solid #c0bfbf;
 }
+.input-box label:first-of-type{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-right: none;
+}
