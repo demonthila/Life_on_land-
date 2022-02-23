@@ -26,3 +26,8 @@
     text-align: center;
     
 }
+.input-box h4{
+    padding: 1px;
+    color: #000;
+    font-size: 20px;
+}
