@@ -45,16 +45,16 @@
             <p>Protect, restore, and promote the sustainable use of terrestrial ecosystems, manage forests sustainably, prevent desertification, and stop and reverse land degradation and biodiversity loss.</p>
             <hr>
         </div>
-    </section>
+    
 
     <section class="pro">
         <div class="row">
             <div class="col-1">
                 <h1>Our Process</h1>
-                <p>bhjjhvgvhbhjvghjvgvhbhvjh
-                    bjhgbhbhbjh
+                <p>You donate >> We pool >> Grow saplings
+ >> Teams plant >> Monitored >> Your impact
                 </p>
-                <button type="button">Explore Steps</button>
+                <!--<button type="button">Explore Steps</button>-->
 
                 <ul><li class="btn active"></li>
                     <li class="btn"></li>
@@ -148,22 +148,47 @@
 
         btn[0].onclick = function(){
             banner.src = "p1.png";
+            animation();
+            this.classList.add("active");
         }
+
+          
         btn[1].onclick = function(){
             banner.src = "p2.png";
+            animation();
+            this.classList.add("active");
         }
         btn[2].onclick = function(){
             banner.src = "p3.png";
+            animation();
+            this.classList.add("active");
         }
         btn[3].onclick = function(){
             banner.src = "p4.png";
+            animation();
+            this.classList.add("active");
         }
         btn[4].onclick = function(){
 
             banner.src = "p5.png";
+            animation();
+            this.classList.add("active");
         }
         btn[5].onclick = function(){
             banner.src = "p6.png";
+            animation();
+            this.classList.add("active");
+        }
+
+        function animation(){
+            banner.classList.add("zoom");
+            setTimeout(function()
+            {banner.classList.remove("zoom");},500);
+            <!--remove black dot-->
+            for(b of btn){
+                b.classList.remove("active");
+            }
+
         }
     </script>
     
