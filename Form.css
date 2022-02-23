@@ -142,3 +142,14 @@
     color: #fff;
     text-align: center;
 }
+button{
+    width: 100%;
+    background: transparent;
+    border: none;
+    background: #0c8a32;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: all 0.35s ease;
+}
