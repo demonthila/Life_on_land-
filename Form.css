@@ -18,3 +18,11 @@
     color: #000;
     font-size: 20px;
 }
+.wrapper h2{
+    background-color: #fcfcfc;
+    color: #000;
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+    
+}
