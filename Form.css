@@ -58,3 +58,9 @@
     border-radius: 3px;
     color: #333;
 }
+.name:focus, .dob:focus{
+    -webkit-box-shadow:0 0 2px 1px #0c8a32;
+    -moz-box-shadow:0 0 2px 1px #0c8a32;
+    box-shadow: 0 0 2px 1px #0c8a32;
+    border: 1px solid #0c8a32;
+}
