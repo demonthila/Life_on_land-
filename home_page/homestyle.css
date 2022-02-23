@@ -49,3 +49,48 @@ header {
     float: left;
     box-align: left;
 }
+
+.logo img {
+    width: 15%;
+    padding: 2px 0;
+}
+
+.welcome-text {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+
+.welcome-text h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.welcome-text h1 span {
+    color: #00fecb;
+}
+
+.welcome-text a {
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+
+.discription {
+    color: #fff;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.welcome-text a:hover {
+    background: #fff;
+    color: #333;
+}
