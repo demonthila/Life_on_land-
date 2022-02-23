@@ -104,3 +104,28 @@ body {
     transition: transform 1.2s, -webkit-transform 1.2s;
     ;
 }
+
+.img-btn span.m-in {
+    -webkit-transform: translateY(-72px);
+    transform: translateY(-72px);
+}
+
+.cont.s-signup .img-btn span.m-in {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.cont.s-signup .img-btn span.m-up {
+    -webkit-transform: translateY(72px);
+    transform: translateY(72px);
+}
+
+.sign-up {
+    -webkit-transform: translate3d(-900px, 0, 0);
+    transform: translate3d(-900px, 0, 0);
+}
+
+.cont.s-signup .sign-up {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
