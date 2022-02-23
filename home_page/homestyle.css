@@ -30,3 +30,22 @@ header {
 .nav-area li {
     display: inline-block;
 }
+
+.nav-area li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.nav-area li a:hover {
+    background: #fff;
+    color: #333;
+}
+
+.logo {
+    float: left;
+    box-align: left;
+}
