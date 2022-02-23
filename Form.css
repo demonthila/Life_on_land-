@@ -137,3 +137,8 @@
     cursor: pointer;
     transition: all 0.2s ease;
 }
+.input-box select:focus{
+    background-color: #0c8a32;
+    color: #fff;
+    text-align: center;
+}
