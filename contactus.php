@@ -12,7 +12,7 @@ if(isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["message"])){
     $email = $_POST["email"];
     $message = $_POST["message"]
 
-    $query = "INSERT INTO tableName (columnName1, columnName2, columnName3) "
+    $query = "INSERT INTO tableName (name, email, message) "
                     . "VALUES ('" . $name . "','" . $email . "','" . $message . "')";
 
             
