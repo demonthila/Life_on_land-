@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Navigation Bar</title>
+    <!--plant icon links in fontawsm-->
+    <script src="https://kit.fontawesome.com/3b54e4cb77.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <div id="main">
+        <nav>
+            <i class="fa-brands fa-pagelines"></i>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Event</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Signin</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Donation</a></li>
+        </nav>
+    </div>
+
+    <title>footer</title>
+    <script src="https://kit.fontawesome.com/3b54e4cb77.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+   
+
+
+    <h1>Terms and Conditions</h1>
+    <style>
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #0009;
+    line-height: 50px
+    
+
+}
+
+nav ul 
+{
+    float: right;
+    margin-right: 10px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+}
+
+/*over the mouse color changing background part*/
+nav ul li:hover
+{
+    background-color: #00fecb;
+    opacity: 0.4;
+}
+/*text color*/
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+    opacity: 1;
+}
+/*bring over the mouse color changing text*/
+nav ul li a:hover{
+    color: #000;
+    opacity: 1;
+}
+/*nav bar logo*/
+nav i{
+    color: #fff;
+    margin-left: 18px;
+    margin-top: 8px;
+    font-size: 35px;
+}/*logoend*/
+
+        h1{
+            font-weight: bold;
+            font-family: 'Poppins',sans-serif;
+            color:rgb(7, 82, 7);
+            font-size: 36px;
+            text-align: center;
+        }
+        h3{
+            font-weight: bold;
+            font-size: 16px;
+            color:rgb(20, 8, 8);
+            text-align: center;
+            font-family:'Poppins',sans-serif;
+        }
+        h4{
+            font-size: 16px;
+            font-family: 'Poppins',sans-serif;
+            color: rgb(92, 88, 88);
+        }
+        h2{
+            font-weight: bold;
+            color:rgb(20, 8, 8);
+            font-size: 24px;
+            font-family:'Poppins',sans-serif;
+            text-align:center;
+        }
+        h5{
+            font-size: 16px;
+            font-family: 'Poppins',sans-serif;
+            color: rgb(20, 8, 8);
+        }
+
+        :before,*:after{
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+    margin: 0;
+    display: grid;
+    font-size: 14px;
+}
+
+footer{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -0-flex;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background-color: #0009;
+}
+
+.footer > *{
+    flex: 1 100%;
+}
+.footer-left
+{
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+/*plantlogo*/
+.image i{
+    color: #fff;
+    margin-left: 150px;
+    margin-top: 8px;
+    font-size: 80px;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 17px;
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer li{
+    line-height: 2em;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer-right{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -0-flex;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.footer-right > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+    margin-top: 30px;
+}
+.box a{
+    color: #fff;
+}
+.box a:hover{
+    color: #00ffbb;
+}
+.footer-right img{
+    width: 60%;
+}
+.footer-left p{
+    padding-right:20%;
+    color:#fff
+}
+.socials{
+    margin-right: 10px;
+}
+.socials a{
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 50%;
+    
+}
+.socials a:hover{
+    background: #00ffbb;}
+.socials a i{
+    color: #000;
+    padding: 10px 12px;
+    font-size: 20px;
+    
+}
+
+@media screen and (min-width: 600px)
+{
+    .footer-right > *{
+        flex: 1;
+    }
+    .footer-left{
+        flex:1 0px;
+    }
+    .footer-right{
+        flex: 2 0px;
+    }
+}
+
+@media (max-width: 600px){
+    .footer{
+        padding: 15px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <h3>Thank you for visiting this website. Please read these Terms and Conditions carefully before using this site.
+    </h3>
+    <p> 
+        <h4>These Terms of Use apply to the entire contents of our website located at www.life_on_land.com.</h4>
+    
+        <ul style="list-style-type: circle;"><h5>
+            <li>User agreement</li>
+            <ul style="list-style-type: disc;">
+                <li>BY USING THE SITE, YOU AGREE TO THESE TERMS OF USE; IF YOU DO NOT AGREE, DO NOT USE THE SITE.</li><br>
+                <li>If you use the website (including downloading and/or streaming content from the website) you will be deemed to have read and be bound by these Terms of Use of Use whether or not, you have registered with us.</li><br>
+                <li>We therefore strongly recommend you read, agree with and accept all of the Terms of Use of Use contained in this document which includes those expressly set out below and those incorporated by reference, before you may make use of the website and related services.</li>            
+            </ul>
+            <br>
+
+            <li>Definitions </li>
+            <ul style="list-style-type: disc";>
+                <li>Reference in these Terms of Use to “we”, “our” or “us” means our team, and “you” or “your” means any person or entity using the website and related services.</li>
+            </ul>
+            <br>
+            
+            <li>Accessing and Using the website </li>
+            <ul style="list-style-type: disc";>
+                <li>You may not use the Site or any Content for any purpose that is unlawful or prohibited by these Terms of Use.</li>
+            </ul>
+            <br>
+
+            <li>Links</li>
+            <ul style="list-style-type: disc";>
+                <li>You do not replicate our home page, site contents or design.</li><br>
+                <li>You do not misrepresent your relationship with us nor present any other false information about it.</li><br>
+            </ul>
+            <br>
+
+            <li>Advertisers</li>
+            <ul style="list-style-type: disc;">
+            <li>We may from time to time allow companies and other organisations to advertise services on our Site.</li>
+            </ul>
+            <br>
+
+            <li>Data Protection</li>
+            <ul style="list-style-type: disc";>
+                <li>We collect personal information from you and you may submit personal information to us. We will handle the collection, processing and storage of your personal information in accordance with our Privacy Policy.</li><br>
+                <Li>By disclosing or submitting your personal information to us, you consent to us collecting, processing and storing your personal information for the purposes described in our Privacy Policy.</Li><br>
+
+            </ul>
+            <br>
+
+        </h5>    
+        </ul>
+        <h2>Privacy Policy</h2><br>
+        <h4>APPLIES TO HOW WE COLLECT, USE AND PROCESS YOUR PERSONAL INFORMATION WHEN YOU USE ANY OF OUR SERVICES, THE WEBSITE, AND ANY APPLICATIONS.  PLEASE READ THIS PRIVACY POLICY CAREFULLY AS THERE ARE PARTS WHICH MIGHT LIMIT OUR RISK OR LIABILITY, REQUIRE YOU TO ASSUME RISK AND LIABILITY FOR CERTAIN ISSUES, OR TO ACKNOWLEDGE CERTAIN FACTS.</h4>
+        <ul style="list-style-type: circle">
+            <h5>
+            <li>Scope of the Privacy Policy</li>
+            <ul style="list-style-type: disc;">
+                <Li>Introduction and scope</Li>
+                    <ul style="list-style-type:disc">
+                        <li>This Privacy Policy, which must be read together with our Website terms and conditions as seen above.</li><br>
+                        <li>sets out the basis on which any Personal Information we collect from you, or that you provide to us, will be collected, used, stored and processed by us when you use the Website and/or the Services.</li>
+                    </ul>
+                <li>Your agreement to the terms of the Privacy Policy</li>
+                    <ul style="list-style-type:disc">
+                        <li>By using the Website or otherwise agreeing to the Terms you agree to be bound by this Privacy Policy and by agreeing to this Privacy Policy, you provide us with your express consent and agreement that we may collect, get, receive, record, organise, collate, store, update, change, retrieve, read, process, use and share your Personal Information in the ways set out in this Privacy Policy. When we do one or more of these actions with your Personal Information, we are “Processing” your Personal Information.</li>
+                    </ul>
+
+            </ul>
+            <br>
+            <li>What is Personal Information?</li>
+            <ul style="list-style-type: disc;">
+                    <li>“Personal Information” refers to private information about an identifiable person, which includes your your name and surname, age, date of birth, contact details (e.g. your home address, postal address, e-mail address or phone number), physical location, place of employment, title and/or position at place of employment, social media account details and profile pictures.</li>
+                    
+            </ul>
+            <br>
+            <li>When will we process your Personal Information?</li>
+            <ul style="list-style-type: disc;">
+                <li>you access, browse or make use of the Website, and/or the Services;</li><br>
+                <li>we provide the Service or Product to you;</li><br>
+                <li>you contact us by email</li><br>
+                <li>you submit your Personal Information to us for any other reason or authorise third parties to do so.</li>
+            </ul> 
+            <br>
+            <li>How we use your Personal Information</li>
+            <ul style="list-style-type: disc;">
+                <li>We use the information we collect to provide, maintain, and improve the Services, to develop new services, and to protect us, our Services and our users.</li><br>
+                <li>We may use your Personal Information to:
+                <ul style="list-style-type: disc;">
+                <li>retain and make available to you information on the Website;</li><br>
+                <li>fulfil your requests for certain Services;</li><br>
+                <li>improve the Website, analyse trends and administer the Website, including requesting feedback on Content and the Services;</li><br>
+                <li>improve your user experience and the overall quality of our Services;</li><br>
+                <li>for security, administrative and legal purposes;</li><br>
+                </ul>
+            </ul>
+            <br>
+
+        </h5>    
+        </ul>
+        <footer class="footer">
+            <div class="footer-left">
+                <div class="image"><i class="fa-brands fa-pagelines"></i></div>
+
+                <p>We want to make planting trees an easy way for anyone to help the environment. We can restore forests, generate biodiversity habitat, and have a beneficial social impact all around the world if we work together.</p>
+                <br> <b>One touch of nature makes the whole world kin.</b>
+                
+    
+                </p>
+                <br>
+                <div class="socials">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+            <ul class="footer-right">
+                <li>
+                    <h2>Quick Links</h2>
+                     <br>
+                    <ul class="box">
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </li>
+                
+                
+               <ul class="box">
+               
+                   <img src="hi.png" alt="">
+                   
+               </ul>
+               <ul class="box">
+                
+                <img src="./222.png" alt="">
+            </ul>
+            </ul>
+        </footer>
+</body>
+</html>
