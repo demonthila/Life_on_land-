@@ -9,6 +9,11 @@ $port = "3307";//port identification
 
 $connection = new mysqli($host, $username, $passwd, $dbname, $port);
 
-
+//if ($connection->connect_error) {
+    //echo 'Error !, Not Connected' 
+    //. $connection->connect_error;
+} //else {
+    // echo "conected Successfully";
+}
 
 ?>
