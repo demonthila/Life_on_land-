@@ -1,11 +1,16 @@
 
 body{
-  background-image: url(imageee.jpg);
+  background-image:url(imageee.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   
 }
+#overlay{
+  width:100%;
+height: 100%;
+
+background-color: rgba(0,0,0,0.7);}
 .container p {
   color: #fff;
 }
@@ -68,13 +73,13 @@ body{
   align-items: center;
   border-radius: 50%;
   font-size: 20px;
-  margin-left: 150px;
+  margin-left: 200px;
   margin-top: 40px;
 }
 .container-fluid .box .text
 {
   display: flex;
-  margin-left: 200px;
+  margin-left: 290px;
   font-size: 16px;
   color: #fff;
   flex-direction: column;
@@ -141,9 +146,11 @@ body{
 .social-media-list li:hover a {
   color: #000;
 }
-hr {
+.social-media-list hr {
  
   border-color: #00fecb;
+  color: #00fecb;
+  
 }
 form
 {
@@ -161,6 +168,8 @@ form
   overflow: hidden;
   backdrop-filter: blur(25px);
   justify-content: center;
+  margin-top: 50px;
+  margin-left: 100px;
 }
 h1
 {
