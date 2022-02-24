@@ -15,4 +15,6 @@ if(isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["message"])){
     $query = "INSERT INTO tableName (columnName1, columnName2, columnName3) "
                     . "VALUES ('" . $name . "','" . $email . "','" . $message . "')";
 
+            
+                    $isSaved = mysqli_query($connection, $query);
 ?>
